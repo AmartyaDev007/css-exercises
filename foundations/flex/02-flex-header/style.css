@@ -2,6 +2,10 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  justify-content: space-between;
+  /* border: solid magenta; */
+  padding: 10px 0px;
+  
 }
 
 .logo {
@@ -16,8 +20,7 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
-  border: solid red;
+  padding: 10px 5px;
 }
 
 a {
@@ -26,4 +29,8 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 5px
 }
+
+
+/* SOLVED */
